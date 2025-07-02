@@ -15,7 +15,7 @@ This project demonstrates how to:
 - **Main.java**  
   - Entry point.  
   - Creates a thread pool (80 threads for this demo).  
-  - Builds a list of 40 `ServerRequest` tasks.  
+  - Builds a list of 80 `ServerRequest` tasks.  
   - Executes all tasks in parallel using `CompletableFuture.allOf(...)`.  
   - Prints results and total elapsed time.
 
@@ -47,7 +47,7 @@ This shows task 80 completed querying the `master` database, and the whole proce
 ## How It Works
 
 - Creates 80-thread pool on a 4-core machine.
-- Submits 40 tasks (`ServerRequest`), each running two queries with built‑in delays.
+- Submits 80 tasks (`ServerRequest`), each running two queries with built‑in delays.
 - Uses `CompletableFuture` to manage asynchronous execution and waiting.
 - Prints elapsed time at the end.
 
