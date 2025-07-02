@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="testHome:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/testHome_jar</output-path>
+    <root id="archive" name="testHome.jar">
+      <element id="module-output" name="MSSQLmTask" />
+    </root>
+  </artifact>
+</component>
