@@ -35,7 +35,7 @@ This project demonstrates how to:
 
 ## Sample Output
 
-When running with 80 threads and 40 tasks, results may look like:
+When running with 80 threads and 80 tasks, results may look like:
 
 ```
 exec 80: master
